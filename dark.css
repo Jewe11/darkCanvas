@@ -1,11 +1,18 @@
+// ==UserScript==
+  //@author      jewe11 fork
+  //@description A CSS modification for the Canvas learning management system which adds dark theme...
+  //@name        darkCanvas
+  //@namespace   darkCss
+  //@include     https://uview.instructure.com
+  //@version     vAlpha
+  //@grant       none
+// ==/UserScript==
 @-moz-document domain("uview.instructure.com"), domain("instructure.com")
 {
-/* 
 a { color: #9BAED2 !important; }
 a:hover { color: #B3C4E6 !important; }
 a:visited { color: #B8A7C3 !important; }
 a:visited:hover { color: #D2C0DE !important; }
- */
 
   span[style="color: #000080;"]
   {
